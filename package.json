@@ -1,0 +1,10 @@
+{
+  "name": "scribe-prose-mirror",
+  "version": "1.0.0",
+  "description": "Testing the idea of using prose-mirror's state to underpin scribe",
+  "author": "Paul Roberts <paul.roberts@guardian.co.uk>",
+  "license": "ISC",
+  "dependencies": {
+    "scribe-editor": "^3.3.0"
+  }
+}

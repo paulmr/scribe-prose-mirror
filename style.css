@@ -1,0 +1,43 @@
+ gu-note {
+    background-color : yellow;
+    border           : 1px dotted black;
+    padding          : 5px 20px;
+    cursor           : pointer;
+}
+
+#note-list li.detached {
+    opacity : 0.5;
+}
+
+#note-list li.highlight {
+    border : 1px dotted red;
+}
+
+#toolbar {
+    width  : 70%;
+    margin :10px;
+}
+
+.container {
+    margin         : 0;
+    padding        : 0;
+    width          : 100%;
+    display        : flex;
+    flex-direction : row;
+}
+
+.col {
+    flex-grow : 1;
+    height    : 100%;
+    margin    : 30px 2%;
+    padding   : 20px;
+}
+
+#result {
+    margin  : 30px 2%;
+    padding : 20px;
+}
+
+#editor {
+    border : 1px dashed lightblue;
+}
