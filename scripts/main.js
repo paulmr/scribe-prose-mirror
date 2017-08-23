@@ -1,11 +1,9 @@
-var pm = require('./prose-mirror-state.js');
+var proseMirrorPlugin = require('./prose-mirror-state.js');
 
 var Scribe = require('scribe-editor');
 
 var el = document.getElementById("editor");
+var resultEl = document.getElementById("result");
 
 var scribe = new Scribe(el);
-scribe.use(pm);
-
-// var toolbarEl = document.getElementById("toolbar")
-// var resultEl = document.getElementById("result")
+scribe.use(proseMirrorPlugin(resultEl));

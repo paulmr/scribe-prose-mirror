@@ -5,6 +5,15 @@
   "author": "Paul Roberts <paul.roberts@guardian.co.uk>",
   "license": "ISC",
   "dependencies": {
+    "prosemirror-model": "^0.22.0",
+    "prosemirror-schema-basic": "^0.22.0",
+    "prosemirror-state": "^0.22.0",
     "scribe-editor": "^3.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "webpack": "^3.5.5"
   }
 }
